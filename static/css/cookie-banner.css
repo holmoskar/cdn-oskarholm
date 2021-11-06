@@ -1,0 +1,107 @@
+@media only screen and (min-width: 1200px){
+    .cookie-banner {
+      background-color: #fefefe;
+      margin: auto;
+      padding-top: 0;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 20px;
+      border: 1px solid #888;
+      width: 50%;
+      position: relative;
+      top: 30%;
+      -webkit-transform: translateY(-30%);
+      -ms-transform: translateY(-30%);
+      transform: translateY(-30%);
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 1200px){
+    .cookie-banner {
+      background-color: #fefefe;
+      margin: auto;
+      border: 1px solid #888;
+      width: 80%;
+      position: relative;
+      top: 20%;
+      -webkit-transform: translateY(-30%);
+      -ms-transform: translateY(-30%);
+      transform: translateY(-30%);
+      text-align: center;
+      padding-top: 0;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 20px;
+    }
+  }
+
+  .cookie-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+  }
+
+  #cookie-banner-frame {
+    background-color: #E0EEF8;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    padding-top: 0;
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    line-height: 70px;
+    font-size: 150%;
+    font-weight: bold;
+  }
+
+  .cookie-button {
+    display: inline-block;
+    font-family: "Poppins-Medium";
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    height: 60px;
+    width: 100px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+
+  .green-hover {
+    color: #fff;
+    background-color: #258d3d;
+    border-color: #28a745;
+}
+
+  .green-hover:hover {
+    background-color: #376d44;
+  }
+
+  .red-hover:hover {
+    background-color: #83363d;
+  }
+
+  .red-hover {
+    color: #fff;
+    background-color: #b93c48;
+    border-color: #dc3545;
+  }
+
+  
